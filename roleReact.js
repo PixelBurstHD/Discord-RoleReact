@@ -66,3 +66,6 @@ bot.on('raw', event => {
  
     }   
 });
+
+//Error Handling
+bot.on('error', console.error);
